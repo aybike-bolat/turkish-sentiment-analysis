@@ -28,7 +28,7 @@ açılan siyah pencereyi kapatmanız yeterlidir.
 | **Arayüz** | Streamlit demo uygulaması |
 
 ## 📂 Proje Yapısı
-
+```text
 turkish-sentiment-analysis/
 ├── app/
 │   └── streamlit_app.py        # Gömülü preprocessing içeren demo web arayüzü
