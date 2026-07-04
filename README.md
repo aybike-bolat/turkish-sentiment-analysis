@@ -129,17 +129,19 @@ Güncel sonuçlar için `reports/model_comparison.csv` dosyasına bakınız.
 
 ## 🖥️ Demo Arayüzü
 
-Streamlit uygulaması 3 sekmeden oluşur:
+Geliştirilen Streamlit web uygulaması, kullanıcı deneyimini artırmak ve projenin akademik/teknik tüm aşamalarını şeffaf bir şekilde sunabilmek adına 3 ana sekme (Tab) ve 1 interaktif yan menü (Sidebar) olarak yapılandırılmıştır:
 
-1. **Demo** — Metin girip anlık duygu tahmini alma
-2. **Model Karşılaştırması** — Tüm modellerin metrikleri ve confusion matrix'leri
-3. **Veri Seti** — TRSAv1 hakkında bilgi ve EDA grafikleri
+### 📱 1. İnteraktif Yan Menü (Sidebar)
+* **Model Seçimi:** Sistemde hazır bulunan üç farklı eğitilmiş algoritma (Naive Bayes, Logistic Regression, SVM) arasında anlık geçiş yapmayı sağlar.
+* **Dinamik Başarı Rozeti:** Proje metriklerine göre en yüksek genel başarıyı ve kütüphane kararlılığını gösteren Naive Bayes modeli seçildiğinde otomatik olarak `⭐ En iyi performanslı model` rozeti belirir.
 
-## 📝 Teknik Rapor ve Sunum
+### 📊 2. Fonksiyonel Sekmeler
+1. **Demo (Anlık Tahmin Ekranı):**
+   * **Serbest Metin Girişi:** Kullanıcının kendi cümlelerini yazarak canlı duygu analizi yapabileceği alan.
+   * **Hızlı Test Örnekleri:** Uzun cümle yazmak istemeyen kullanıcılar için tek tıkla metin alanına transfer olan Pozitif, Negatif ve Nötr hazır örnek butonları.
+   * **Gömülü Ön İşleme (Preprocessing) Göstergesi:** Arka planda anlık olarak temizlenen (küçük harfe çevirme, URL/sayı/noktalama temizliği, stopword filtreleme) metni, şeffaflık ilkesi gereği `Modele giren temizlenmiş metin` panelinde kod formatında gösterir.
+   * **Güven Skoru Grafiği:** Tahmin sonucuna göre dinamik olarak renk değiştiren animasyonlu sonuç kartının hemen altında, modelin tahmin olasılıklarını anlık bir çubuk grafik (`Bar Chart`) ile yüzdelik oranlar halinde sunar.
 
-- Projenin 5-10 sayfalık teknik raporu `reports/teknik_rapor.docx` dosyasında
-  yer almaktadır (araştırma, metodoloji, sonuçlar ve değerlendirme).
-- Demo sunumu için `reports/sunum.pptx` kullanılabilir.
 
 
 ## 🛠️ Kullanılan Teknolojiler
