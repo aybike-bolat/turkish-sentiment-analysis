@@ -125,7 +125,7 @@ vektörleştirilip üç farklı klasik makine öğrenmesi modeli eğitilmiştir:
 | Logistic Regression | 0.7730 | 0.7713 | 0.7725 |
 | SVM (Linear) | 0.7684 | 0.7663 | 0.7675 |
 
-Güncel sonuçlar için `reports/model_comparison.csv` dosyasına bakınız.
+
 
 ## 🖥️ Demo Arayüzü
 
