@@ -65,23 +65,14 @@ python -c "import nltk; nltk.download('stopwords')"
 
 ```bash
 # 1) Veri setini indir (Hugging Face - internet gerektirir)
-python src/download_dataset.py
 
 # 2) Keşifsel veri analizi (grafikler reports/figures altına kaydedilir)
-python src/eda.py
 
 # 3) Veri temizleme ve train/test ayrımı
-python src/prepare_data.py
 
 # 4) Modelleri eğit ve karşılaştır
-python src/train_models.py
 
 # 5) Demo arayüzünü başlat
-streamlit run app/streamlit_app.py
-
-# (İsteğe bağlı) Word raporu ve sunum slaytlarını yeniden üret
-python tools/generate_report_docx.py
-python tools/generate_presentation.py
 ```
 
 Uygulama açıldıktan sonra tarayıcıda `http://localhost:8501` adresinden
@@ -105,8 +96,6 @@ Detaylı analiz ve grafikler için `reports/figures/` klasörüne ve
 `reports/teknik_rapor.docx` dosyasının 3. bölümüne bakabilirsiniz.
 
 ## 🧹 Ön İşleme (Preprocessing)
-
-`src/preprocessing.py` içindeki `clean_text()` fonksiyonu şu adımları uygular:
 
 1. Türkçe'ye özgü küçük harfe çevirme (İ→i, I→ı)
 2. URL, e-posta, kullanıcı adı/hashtag temizleme
