@@ -46,19 +46,16 @@ turkish-sentiment-analysis/
 ├── requirements.txt             # Gerekli bağımlılıklar ve kütüphaneler listesi
 └── uygulamayi_calistir.bat      # Windows için tek tıkla uygulamayı başlatma aracı
 
+
 ## 🚀 Kurulum
 
 ```bash
-# 1) Sanal ortam oluştur ve etkinleştir
-python -m venv venv
-venv\Scripts\activate        # Windows
-# source venv/bin/activate   # macOS/Linux
-
-# 2) Bağımlılıkları kur
+# 1) Gerekli bağımlılıkları ve kütüphaneleri kurun
 pip install -r requirements.txt
 
-# 3) NLTK stopwords verisini indir
+# 2) NLTK stopwords verisini indirin
 python -c "import nltk; nltk.download('stopwords')"
+
 ```
 
 ## ▶️ Projeyi Baştan Sona Çalıştırma
