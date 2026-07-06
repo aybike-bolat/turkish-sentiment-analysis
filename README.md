@@ -80,6 +80,9 @@ erişilebilir. Kurulum gerektirmeden çalıştırmak isterseniz
 `notebooks/Turkce_Duygu_Analizi_Colab.ipynb` dosyasını Google Colab'a
 yükleyebilirsiniz.
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/aybike-bolat/turkish-sentiment-analysis/blob/main/notebooks/Turkce_Duygu_Analizi_Colab.ipynb)
+
+
 ## 📊 Veri Seti Hakkında
 
 **TRSAv1 (Turkish Sentiment Analysis v1)**, Türkçe e-ticaret sitelerindeki
