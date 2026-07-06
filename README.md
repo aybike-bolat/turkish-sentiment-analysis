@@ -40,8 +40,6 @@ turkish-sentiment-analysis/
 │   └── Turkce_Duygu_Analizi_Colab.ipynb  # Google Colab'da çalıştırılabilir sürüm
 ├── reports/
 │   └── teknik_rapor.pdf       
-├── venv/                        # Python Yerel Sanal Ortam klasörü
-├── .gitignore                   # GitHub'a yüklenmeyecek dosyaların listesi
 ├── README.md                    # Proje tanıtım ve kılavuz belgesi
 ├── requirements.txt             # Gerekli bağımlılıklar ve kütüphaneler listesi
 └── uygulamayi_calistir.bat      # Windows için tek tıkla uygulamayı başlatma aracı
