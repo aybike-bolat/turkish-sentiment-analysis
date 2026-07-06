@@ -92,8 +92,8 @@ veri setidir (Aydoğan & Kocaman, 2022, *Journal of Information Science*).
   öğrenmesini engeller ve sınıflar arası performansın adil şekilde
   karşılaştırılmasını sağlar.
 
-Detaylı analiz ve grafikler için `reports/figures/` klasörüne ve
-`reports/teknik_rapor.docx` dosyasının 3. bölümüne bakabilirsiniz.
+Detaylı analiz ve grafikler için `images/` klasörüne ve
+`reports/teknik_rapor.pdf` dosyasının 3. bölümüne bakabilirsiniz.
 
 ## 🧹 Ön İşleme (Preprocessing)
 
